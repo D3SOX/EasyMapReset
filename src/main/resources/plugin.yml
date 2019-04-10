@@ -1,0 +1,11 @@
+name: EasyMapReset
+author: D3SOX
+version: 1.0.5-SNAPSHOT
+description: A map reset plugin
+main: me.d3sox.easymapreset.EasyMapReset
+load: STARTUP
+loadbefore: [Multiverse-Core]
+commands:
+  easymapreset:
+    description: An info command for EasyMapReset
+    usage: /<command>
